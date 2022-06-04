@@ -32,9 +32,9 @@ while game_on:
     if left_or_right == "left":
         print(
             """    Woop, Woop I can see a lake from here 
-After walking for 10 min, you reached the lake \n""")
+    After walking for 10 min, you reached the lake \n""")
         print("""what would you like to do? 'SWIM' or 'WAIT' for a boat?
-  If you choose to SWIM you will reach the other side faster because the boat will depart after 2 hours"""
+If you choose to SWIM you will reach the other side faster because the boat will depart after 2 hours"""
               )
     else:
         print('''You faced the Dead Rabbits mafia, 
