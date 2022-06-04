@@ -21,18 +21,23 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 game_on = True
-print("""Welcome to Treasure Island!
+print("""Welcome to Treasure island!
 You are now going for a treasure hunt. 
 Your mission is to find your way to the treasure. 
-Choose your options wisely or you will end up DEAD.""") 
+Choose your options wisely or you will end up DEAD.""")
 while game_on:
-  left_or_right =  input("You are now on the island, where would you like to go 'LEFT' or 'RIGHT'? \n").lower()
-  if left_or_right == "left":
-    print("""    Woop, Woop I can see a lake from here After walking for 10 min, you reached the lake \n""")
-    print("""what would you like to do? 'SWIM' or 'WAIT' for a boat?
-  If you choose to SWIM you will reach the other side faster because the boat will depart after 2 hours""")
-  else:
-    print('''You faced the Dead Rabbits mafia, 
+    left_or_right = input(
+        "You are now on the island, where would you like to go 'LEFT' or 'RIGHT'? \n"
+    ).lower()
+    if left_or_right == "left":
+        print(
+            """    Woop, Woop I can see a lake from here 
+After walking for 10 min, you reached the lake \n""")
+        print("""what would you like to do? 'SWIM' or 'WAIT' for a boat?
+  If you choose to SWIM you will reach the other side faster because the boat will depart after 2 hours"""
+              )
+    else:
+        print('''You faced the Dead Rabbits mafia, 
 you were so brave defending yourself but, 
 unfortunately, you could not take all the heat, 
 RIP, GAME OVER
@@ -40,10 +45,10 @@ RIP, GAME OVER
              |          /|
              |\       '/ 
   \n''')
-    break
-  lake =  input("").lower()
-  if lake == "wait":
-    print("""    This boat is incredible,
+        break
+    lake = input("").lower()
+    if lake == "wait":
+        print("""    This boat is incredible,
           I can see a castle, I must be close to the treasure.
          _~
       _~ )_)_~
@@ -51,8 +56,8 @@ RIP, GAME OVER
       _!__!__!_
       \______t/
     ~~~~~~~~~~~~~\n""")
-  else:
-    print("""    OMG nooooooooo, 
+    else:
+        print("""    OMG nooooooooo, 
           
                       .-._   _ _ _ _ _ _ _ _
            .-''-.__.-'00  '-' ' ' ' ' ' ' ' '-.
@@ -64,10 +69,12 @@ RIP, GAME OVER
                                       _____..'  .'
                                      '-._____.-' 
           Rest In Peace, GAME OVER\n""")
-    break
+        break
 
-  print("The castle have 3 door which one would you like to choose? 'RED', 'BLUE', or 'YELLOW'\n")
-  print('''                                 |--__
+    print(
+        "The castle have 3 door which one would you like to choose? 'RED', 'BLUE', or 'YELLOW'\n"
+    )
+    print('''                                 |--__
                                  |
                                  X
                         |-___   / \       |--__
@@ -81,11 +88,10 @@ RIP, GAME OVER
             -- __  W  WWWW______"""______WWWW   W -----  --
         -  -     ___  ---    ____     ____----       --__  -
             --__    --    --__     -___        __-   _''')
-  
-  
-  door = input("").lower()
-  if door == "red":
-    print('''     (  .      )
+
+    door = input("").lower()
+    if door == "red":
+        print('''     (  .      )
              )           (              )
                    .  '   .   '  .  '  .
           (    , )       (.   )  (   ',    )
@@ -93,12 +99,12 @@ RIP, GAME OVER
         ). , ( .   (  ) ( , ')  .' (  ,    )
        (_,) . ), ) _) _,')  (, ) '. )  ,. (' )
    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^''')
-    print(""" AHHHHHHHHHHHHHHHHHHHHHH 
+        print(""" AHHHHHHHHHHHHHHHHHHHHHH 
   You were burned by fire 
   REST IN PEACE, GAME OVER""")
-    break
-  if door == "blue":
-    print('''
+        break
+    if door == "blue":
+        print('''
                      (    )
                     ((((()))
                     |o\ /o)|
@@ -122,11 +128,11 @@ RIP, GAME OVER
                               / /
                             _/,/'
                           /,/,"''')
-    print(" The beast ate you, RIP GAME OVER")
-    break
-  if door == "yellow":
-    print('''Yaaaaaaaay I HAVE FOUDN IT, I AM RICH''')
-    print("""__________________
+        print(" The beast ate you, RIP GAME OVER")
+        break
+    if door == "yellow":
+        print('''Yaaaaaaaay I HAVE FOUDN IT, I AM RICH''')
+        print("""__________________
       .-'  \ _.-''-._ /  '-.
     .-/\   .'.      .'.   /\-.
    _'/  \.'   '.  .'   './  \'_
@@ -138,8 +144,9 @@ RIP, GAME OVER
            '. \    / .'
              '.\  /.'     
                '\/'""")
-    break
-  else:
-    print("WRONG CHOICE THE GUARDS KICKED YOU OUT OF THE CASTLE AND YOU CAN RE-ENTER AGAIN, GAME OVER!")
-    break
-  
+        break
+    else:
+        print(
+            "WRONG CHOICE THE GUARDS KICKED YOU OUT OF THE CASTLE AND YOU CAN RE-ENTER AGAIN, GAME OVER!"
+        )
+        break
